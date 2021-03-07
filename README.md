@@ -1,5 +1,6 @@
-# My Jekyll Blog
+```
+bundle install
 
-https://vansika.art
+bundle exec jekyll serve
 
-This is a fork of [ferbncode.github.io](https://ferbncode.github.io).
+```
