@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Poetry
+title: Poems
 ---
 
-<ul>
-  {% for post in site.poems %}
-    <li itemscope>
-       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-
-{% endfor %}
-
-</ul>
+<table>
+    {% for poem in site.poems %}
+    <tr>
+        <td> {{poem.title}} </td>
+        <td><a href="{{poem.url}}">{{ poem.content | strip_html | truncate: 35 }}</a></td>
+    </tr>
+    {% endfor %}
+</table>

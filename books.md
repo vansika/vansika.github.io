@@ -8,7 +8,7 @@ title: Book Reads
       <!-- {{ read.title }}<br/> -->
       <!-- {{ read.author }} -->
       <div class="row">
-      {% for read in site.reads %}
+      {% for read in site.books %}
         {% assign total_pages_float = read.total_pages | times: 1.0 %}
         {% assign read_percentage = read.read_pages | divided_by:total_pages_float  | times:100 %}
         <div class="column">
