@@ -38,7 +38,7 @@ paginate: 5
 collections:
   poems:
     output: true
-  dairy:
+  photos:
     output: true
   books:
     output: true
