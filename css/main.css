@@ -746,14 +746,24 @@ th {
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
-.photo {
+.photo-portrait {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+}
+
+.photo-landscape {
   margin: 0 auto;
   display: block;
   height: 350px;
 }
 
 @media (max-width: 600px) {
-  .photo {
+  .photo-portrait {
+    width: auto;
+  }
+
+  .photo-landscape {
     height: auto;
   }
 }
