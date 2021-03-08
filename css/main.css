@@ -787,4 +787,12 @@ th {
   .photo-landscape {
     height: auto;
   }
+
+  .menu-content {
+    font-size: 0.8rem;
+  }
+
+  .masthead-title a {
+    font-size: 0.6rem;
+  }
 }
