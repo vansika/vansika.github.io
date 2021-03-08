@@ -155,7 +155,7 @@ blockquote p {
 }
 
 .masthead-title a {
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   text-decoration: none;
   color: #505050;
   padding-bottom: 1.5em;
@@ -288,8 +288,8 @@ blockquote p {
 
 .menu-content a {
   color: #0086B3;
-  font-size: 1.1rem;
-  padding: 0.5em;
+  font-size: 0.9rem;
+  padding: 0.4em;
 }
 
 .social-icons {
