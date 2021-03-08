@@ -9,7 +9,7 @@ I try to capture memories!
     <tr>
         <td style="padding:15px">
             <img 
-		style="margin: 0 auto; display: block; height: 350px"
+		class="photo"
 		src="/assets/images/152716822_896074454474515_18592080219745736_n.jpg">
         </td>
     </tr>
