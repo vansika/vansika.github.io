@@ -775,6 +775,21 @@ th {
   height: 300px;
 }
 
+.column-70 {
+  width: 70%;
+  padding: 4px 0;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+}
+
+
+.column-30 {
+  width: 30%;
+  padding: 4px 0;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+}
+
 @media (max-width: 600px) {
   .column-70 {
     width: 100%;
@@ -814,20 +829,4 @@ th {
 
 .align-content-left {
   text-align: left;
-}
-
-
-.column-70 {
-  width: 70%;
-  padding: 4px 0;
-  padding-bottom: 20px;
-  -webkit-box-pack: center;
-}
-
-
-.column-30 {
-  width: 30%;
-  padding: 4px 0;
-  padding-bottom: 20px;
-  -webkit-box-pack: center;
 }
