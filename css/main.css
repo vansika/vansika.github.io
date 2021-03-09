@@ -766,16 +766,24 @@ th {
 .photo-portrait {
   margin: 0 auto;
   display: block;
-  width: 400px;
+  height: 300px;
 }
 
 .photo-landscape {
   margin: 0 auto;
   display: block;
-  height: 350px;
+  height: 300px;
 }
 
 @media (max-width: 600px) {
+  .column-70 {
+    width: 100%;
+  }
+
+  .column-30 {
+    width: 100%;
+  }
+  
   .photo-portrait {
     width: auto;
   }
@@ -799,4 +807,20 @@ th {
 
 .align-content-left {
   text-align: left;
+}
+
+
+.column-70 {
+  width: 70%;
+  padding: 4px 0;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+}
+
+
+.column-30 {
+  width: 30%;
+  padding: 4px 0;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
 }
