@@ -571,6 +571,7 @@ svg.assembly_stack {
   flex-wrap: wrap;
   display: flex;
   padding: 0 4px;
+  justify-content: center;
 }
 
 /* Create four equal columns that sits next to each other */
