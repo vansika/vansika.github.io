@@ -267,8 +267,6 @@ blockquote p {
   margin: 0;
   position: relative;
   padding: 0;
-  pointer-events: all;
-  cursor: pointer;
 
   li {
     display: inline-block;
@@ -284,6 +282,7 @@ blockquote p {
   color: #0086B3;
   font-size: 0.9rem;
   padding: 0.4em;
+  cursor: pointer;
 }
 
 .social-icons {
