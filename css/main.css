@@ -122,6 +122,7 @@ blockquote p {
 
 .img-container {
   padding: 0 40px 40px;
+  margin: auto;
 }
 
 .image {
@@ -675,6 +676,7 @@ svg.assembly_stack {
 
     border-radius: 10px; /* (height of inner div) / 2 + padding */
     position: relative;
+    margin: auto;
 }
 
 #progress-bar-percentage {
