@@ -790,10 +790,10 @@ th {
   }
 }
 
-.align-right {
+.align-content-right {
   text-align: right;
 }
 
-.align-left {
+.align-content-left {
   text-align: left;
 }
