@@ -778,12 +778,19 @@ th {
 @media (max-width: 600px) {
   .column-70 {
     width: 100%;
-  }
-
-  .column-30 {
-    width: 100%;
+    padding: 4px 0;
+    padding-bottom: 20px;
+    -webkit-box-pack: center;
   }
   
+  
+  .column-30 {
+    width: 100%;
+    padding: 4px 0;
+    padding-bottom: 20px;
+    -webkit-box-pack: center;
+  }
+
   .photo-portrait {
     width: auto;
   }
