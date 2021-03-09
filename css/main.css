@@ -806,12 +806,8 @@ th {
     -webkit-box-pack: center;
   }
 
-  .photo-portrait {
-    width: auto;
-  }
-
-  .photo-landscape {
-    height: auto;
+  .photo-portrait, .photo-landscape {
+    width: 100%;
   }
 
   .menu-content {
