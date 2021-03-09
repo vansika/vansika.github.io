@@ -789,3 +789,11 @@ th {
     font-size: 0.9rem;
   }
 }
+
+.align-content-right {
+  text-align: right;
+}
+
+.align-content-left {
+  text-align: left;
+}
