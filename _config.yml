@@ -36,8 +36,9 @@ paginate: 5
 
 # # Collections
 collections:
-  poems:
+  poem:
     output: true
+    permalink: /:collection/:title
   photos:
     output: true
   books:
@@ -48,7 +49,7 @@ collections:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: none
+permalink: /:categories/:title
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
 timezone: Europe/Berlin

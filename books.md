@@ -15,15 +15,6 @@ title: Book Reads
           <div class="img-container image is-256x256">
               <img src="../assets/images/{{read.img}}" />
           </div>
-
-        <div id="progress">
-        <div id="progress-bar">
-          <div id="progress-bar-percentage" style="width: {{ read_percentage }}%">
-            <span>{{read.read_pages}}/{{read.total_pages}}</span>
-          </div>
-        </div>
-        </div>
-
         </div>
       {% endfor %}
       </div>
