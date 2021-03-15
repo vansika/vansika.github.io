@@ -1,0 +1,19 @@
+---
+layout: page
+title: Travel
+---
+
+{% for post in site.travel %}
+<div class="posts">
+  <h2>
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  {% if post.image.teaser %}
+    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/images/{{ post.image.teaser }}"></a>
+  {% endif %}
+  <p>
+    {{ post.content | strip_html | truncate: 200 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+    <span class="post-date" style="margin-top:3px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+  </p>
+</div>
+{% endfor %}

@@ -45,6 +45,8 @@ collections:
     output: true
   about:
     output: true
+  travel:
+    output: true
 
 # Build settings
 markdown: kramdown
