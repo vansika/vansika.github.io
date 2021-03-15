@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #0086B3;
+  color: #D10000;
   text-decoration: none;
   transition: color 150ms ease;
 
@@ -281,7 +281,7 @@ blockquote p {
 }
 
 .menu-content a {
-  color: #0086B3;
+  color: #D10000;
   font-size: 0.9rem;
   padding: 0.4em;
   cursor: pointer;
