@@ -246,8 +246,10 @@ blockquote p {
   color: #999;
   text-align: center;
   border-top: 1px solid grey;
-  width: 100%;
+  max-width: 800px;
   padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer a {
@@ -258,6 +260,12 @@ blockquote p {
 
 .footer a:hover {
   color: #333;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    width: 100%;
+  }
 }
 
 /*
