@@ -245,7 +245,9 @@ blockquote p {
 .footer {
   color: #999;
   text-align: center;
-  margin: 2rem;
+  border-top: 1px solid grey;
+  width: 100%;
+  padding-top: 15px;
 }
 
 .footer a {
