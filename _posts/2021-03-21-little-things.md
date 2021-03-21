@@ -11,7 +11,7 @@ But for this to happen, _we_ must understand how important it is to appreciate.
 
 Appreciation shouldn’t be confused with validation. People don’t seek validation of others for things they are up to or for themselves, all they need is a motivation to see light in the dark. Human beings are wired like that. For example, a friend of yours having low confidence about the way their eyes look will see them differently in the mirror if you just go up to them and say, “Hey, your eyes look beautiful!”. I once received  a message from a friend of mine, which read, “Hey Vansika, you are doing great and I have a feeling that you will do wonders in your life!” This text just made my day. Your words of appreciation might pull out someone from total breakdown or suicide as well. That is the power of words. In this world of social media where it is easy to abuse people from behind the screen, we need words of appreciation more than ever.
 
-The other day I had a call with my colleague in a "get to know fellow Amazonians session for freshers", when I asked her about a challenge she faced in life, she talked about how she kept to herself her appreciation for others and realized its importance when her manager pushed her to do so. She now feels happy whenever she appreciates people around her.
+The other day I had a call with my colleague in a "get to know fellow Amazonians session for freshers", when I asked her about a challenge she faced in life, she talked about how she kept to herself her appreciation for others and realized its importance when her manager pushed her to do so. She now feels happy whenever she appreciates the people around her.
 
 _Sometimes all we need is a push_.
 
