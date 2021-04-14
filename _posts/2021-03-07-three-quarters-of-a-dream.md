@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three-quarters of a dream!
+title: Three-quarters of a dream
 ---
 
 Living in a house with a private balcony has always been my dream. Note the word _private_, I prefer not to share a balcony just like I prefer not to share my _books_.
