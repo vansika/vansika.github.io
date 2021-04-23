@@ -17,4 +17,17 @@ I try to capture memories!
             <a href="/assets/images/couple-original.jpg"><img src="/assets/images/couple-small.jpg"></a>
         </td>
     </tr>
+
+    <tr>
+	<td style="padding:15px;">
+            <a href="/assets/images/night_1.jpg"><img src="/assets/images/night_1.jpg"></a>
+        </td>
+        <td style="padding:15px;">
+            <a href="/assets/images/lily.jpg"><img src="/assets/images/lily.jpg"></a>
+        </td>
+        <td style="padding:15px;">
+            <a href="/assets/images/night_2.jpg"><img src="/assets/images/night_2.jpg"></a>
+        </td>
+
+    </tr>
 </table>
