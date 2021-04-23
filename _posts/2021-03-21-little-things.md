@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Little things
+tag: Post
 ---
 
 I often appreciate people inside, but have a hard time telling them right on their face about things I absolutely love about them. Lately, I realized I am doing no good to myself and the people around me by not conveying this appreciation. We all have a story and we all are trying hard to move through life. One word of appreciation can move mountains for people without us realizing it. We, in general, are of the opinion that our words of kindness won’t help much. Also, we tend to appreciate strangers or acquaintances more than the people close to us thinking that the appreciation we hold for them is something obvious that won’t make a difference when explicitly stated. This false estimation of the impact of words can restrict people from saying things that might completely change someone else’s life for the better. Sometimes it’s not about false estimation, but shyness or hesitation.

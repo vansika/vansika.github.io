@@ -45,9 +45,6 @@ collections:
     output: true
   about:
     output: true
-  travel:
-    output: true
-    permalink: /:collection/:title
 
 # Build settings
 markdown: kramdown
