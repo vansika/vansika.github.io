@@ -19,7 +19,7 @@ email: vansikapareek2001@gmail.com
 tagline:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vansika.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vansika.art" # the base hostname & protocol for your site, e.g. http://example.com
 exclude:
   - Gemfile
   - Gemfile.lock
