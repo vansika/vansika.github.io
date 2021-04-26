@@ -6,6 +6,8 @@ title: Paintings
 When my hands bleed,
 I put them on a _canvas_!
 
+_Click to enlarge_
+
 <table>
     <tr>
         <td style="text-align: right; padding-right: 15px">
