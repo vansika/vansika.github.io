@@ -5,6 +5,8 @@ title: Photos
 
 I try to capture memories!
 
+_Click to enlarge_
+
 <table>
     <tr>
 	<td style="padding:15px;">
