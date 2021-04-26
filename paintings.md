@@ -13,7 +13,12 @@ _Click to enlarge_
         <td style="text-align: right; padding-right: 15px">
             <a href="/assets/images/scenery-original.jpg"><img src="/assets/images/scenery-small.jpg"></a>
         </td>
-        <td>
+        
+        <td style="text-align: right; padding-right: 15px">
+            <a href="/assets/images/painting_1.jpg"><img src="/assets/images/painting_1-small.jpg"></a>
+        </td>
+
+	<td>
             <a href="/assets/images/leaves-original.jpg"><img src="/assets/images/leaves-small.jpg"></a>
         </td>
     </tr>
