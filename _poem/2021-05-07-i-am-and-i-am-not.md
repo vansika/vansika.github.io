@@ -13,4 +13,4 @@ and when you arrive,
 
 I will disappear,
 
-_into brilliance_
+_into brilliance_.
