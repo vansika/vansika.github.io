@@ -8,6 +8,19 @@ I try to capture memories!
 _Click to enlarge_
 
 <table>
+<tr>
+    <td style="text-align: center; padding-right: 15px">
+      <a href="/assets/images/tower.jpg"><img src="/assets/images/tower-small.jpg"></a>
+    </td>
+    <td style="text-align: center; padding-right: 15px">
+      <a href="/assets/images/smile.jpg"><img src="/assets/images/smile-small.jpg"></a>
+    </td>
+    <td style="text-align: center; padding-right: 15px">
+      <a href="/assets/images/grass.jpg"><img src="/assets/images/grass-small.jpg"></a>
+    </td>
+  </tr>
+
+
 
 <tr>
     <td style="text-align: center; padding-right: 15px">
@@ -46,5 +59,5 @@ _Click to enlarge_
         </td>
     </tr>
 
-    
+
 </table>
