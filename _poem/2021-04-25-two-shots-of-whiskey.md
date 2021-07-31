@@ -23,7 +23,7 @@ the air above and Bowmore beneath,
 
 celebrations of emotions which were hiding in a scared sheath, 
 
-the moments saturated with bliss bubbled around their waists, 
+the moments saturated with bliss bubbling around their waists, 
 
 little by little the suffocating glasses turned into solace, 
 
