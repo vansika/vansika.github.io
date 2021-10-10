@@ -1,0 +1,79 @@
+---
+# https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - build
+      - deploy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - build
+
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:3.0
+    environment:
+      BUNDLE_PATH: ~/project/vendor/bundle
+      JEKYLL_ENV: "production"
+      LC_ALL: "C.UTF-8"
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: "true"
+    steps:
+      - checkout
+
+      - run:
+          name: install jekyll build dependencies
+          command: sudo apt-get update && sudo apt install pkg-config libxml2-dev libxslt-dev
+
+      - restore_cache:
+          key: rubygems-{{ checksum "Gemfile.lock" }}
+      - run: gem install bundler
+      - run: bundle check || bundle install
+      - save_cache:
+          key: rubygems-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - restore_cache:
+          key: htmlproofer-vansika
+      - run: bundle exec rake test
+      - save_cache:
+          key: htmlproofer-vansika
+          paths:
+            - tmp/.htmlproofer
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - _site/*
+
+  deploy:
+    docker:
+      - image: cibuilds/base:latest
+    working_directory: ~/jekyll
+    environment:
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    steps:
+      # add repository deploy key (for pull/push access)
+      - add_ssh_keys:
+          fingerprints:
+            - "4d:c3:16:ae:43:97:49:dd:ba:c8:ab:1f:47:60:fb:64"
+
+      # deploy.sh dependencies
+      - run: apk add rsync
+
+      # clone repo (required to access `.circleci/deploy.sh`)
+      - run: git clone --depth=1 https://github.com/vansika/vansika.github.io.git
+
+      # checkout generated html
+      - attach_workspace:
+          at: vansika.github.io
+
+      # deploy to production
+      - deploy:
+          name: Deploy to GitHub Pages
+          command: ./vansika.github.io/.circleci/deploy.sh
