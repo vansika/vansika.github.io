@@ -15,15 +15,16 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # stage generated HTML for GitHub Pages
 git clone --quiet --branch=gh-pages $CIRCLE_REPOSITORY_URL $DEPLOY_DIR
-rsync --archive --recursive --verbose --remove-source-files $HOME/jekyll/vansika.github.io/_site/* $DEPLOY_DIR
+rsync --archive --recursive --verbose --remove-source-files $HOME/jekyll/$CIRCLE_PROJECT_REPONAME/_site/* $DEPLOY_DIR
 
 # git client setup
 cd $DEPLOY_DIR
 git config --global push.default simple
 git config --global user.email $(git --no-pager show --no-patch --format='%ae' HEAD)
 git config --global user.name $CIRCLE_USERNAME
+git config --global --get-regexp "(push.default|user.(email|name))"
 
 # force push to GitHub Pages
 git add --force .
-git commit --message="Deploy build $CIRCLE_BUILD_NUM [ci skip]" || true
-git push --force origin gh-pages
+git commit --verbose --message="Deploy build $CIRCLE_BUILD_NUM [ci skip]" || true
+git push --verbose --force origin gh-pages
